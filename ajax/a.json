@@ -1,0 +1,40 @@
+{
+  "root": [
+    {
+      "name": "Tiger Nixon",
+      "hr": {
+        "position": "System Architect",
+        "salary": "$320,800",
+        "start_date": "2011/04/25"
+      },
+      "contact": [
+        "Edinburgh",
+        "5421"
+      ]
+    },
+    {
+      "name": "Cedric Kelly",
+      "hr": {
+        "position": "Senior Javascript Developer",
+        "salary": "$433,060",
+        "start_date": "2012/03/29"
+      },
+      "contact": [
+        "Edinburgh",
+        "6224"
+      ]
+    },
+    {
+      "name": "Donna Snider",
+      "hr": {
+        "position": "Customer Support",
+        "salary": "$112,000",
+        "start_date": "2011/01/25"
+      },
+      "contact": [
+        "New York",
+        "4226"
+      ]
+    }
+  ]
+}

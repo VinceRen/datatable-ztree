@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8" /> 
+  <title></title> 
+  <script src="jquery.js" type="text/javascript" charset="utf-8"></script> 
+ </head> 
+ <body> 
+  <div id="diva" style="width: 1000px;height: 200px;border: 1px solid #0C0C0C;margin:150px auto;"></div> 
+  <script>  
+$(function() {
+    $.getJSON('a.json',
+    function(data) {
+        var sss = JSON.stringify(data.root);
+        $("#diva").html(sss);
+		alert(data.root[0].name);
+    });
+});
+    </script>   
+ </body>
+</html>
